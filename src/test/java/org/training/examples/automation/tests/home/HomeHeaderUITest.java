@@ -24,6 +24,7 @@ public class HomeHeaderUITest extends TestBase {
 
         try {
 
+            System.out.println(System.getProperty("user.dir"));
             //Perform Login
             loginPage.login();
             //Validate Marketplace button in the Home page Header UI
